@@ -5,7 +5,7 @@ void show_help()
 	printf("tee2err - v0.1 - January 2017 - Peter Berbec - peter@berb.ec\n");
 	printf("Copy standard input to stderr and also to standard output.\n\n");
 	printf("Usage:\n\n");
-	printf("echo "split me" | tee2err > output.txt 2> errors.txt\n\n");
+	printf("echo \"split me\" | tee2err > output.txt 2> errors.txt\n\n");
 	printf("Useful with pipes in scripting when you want the output to go both places.\n\n");
 	printf("Any command line options will bring up this screen.\n\n");
 	printf("Example:\n\n");
